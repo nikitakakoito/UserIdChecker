@@ -1,8 +1,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 
-import config as config
-
-bot = Bot(token=config.test_token)
+bot = Bot(token='your token here')
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
